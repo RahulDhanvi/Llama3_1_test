@@ -20,6 +20,7 @@ def generate_response(
         model=model_id,
         model_kwargs={"torch_dtype": torch.bfloat16},
         device_map="auto",
+        token="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",
     )
 
     try:
